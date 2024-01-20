@@ -1,0 +1,12 @@
+version: '3'
+networks:
+  frontend: 
+    driver: bridge
+services:
+  dev:
+    image: "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
+    restart: always
+    volumes:
+      - ../..:/workspaces:cached
+    networks:
+      - frontend
