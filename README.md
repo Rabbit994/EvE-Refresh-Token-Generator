@@ -1,12 +1,12 @@
 # EvE-Refresh-Token-Generator
 
-This is easy flask app to create Refresh Tokens for Preston.
+This is easy flask app to create Refresh Tokens for EvE Online API to use with other applications.
 
 Setup Python with venv and install packages in requirements.txt
 
 Go to: https://developers.eveonline.com/applications and login to your EvE Account.
 
-Create a new application or use existing application. Make sure callback url is http://localhost:5000 unless you modify flask path.
+Create a new application or use existing application. Make sure callback url is http://localhost:5000
 
 Copy .env-example to .env and fill in the values.
 
